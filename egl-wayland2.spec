@@ -81,7 +81,6 @@ Wayland EGL External Platform library development package (32-bit).
 
 %files -n %{libname}
 %doc README.md
-%license COPYING
 
 
 %files -n %{devname}
