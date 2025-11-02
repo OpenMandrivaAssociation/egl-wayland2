@@ -31,6 +31,7 @@ BuildRequires:	pkgconfig(wayland-scanner)
 BuildRequires:	pkgconfig(wayland-protocols)
 BuildRequires:	pkgconfig(libffi)
 %if %{with compat32}
+BuildRequires:  devel(libgbm)
 BuildRequires:	devel(libdrm)
 BuildRequires:	devel(libEGL)
 BuildRequires:	devel(libwayland-server)
