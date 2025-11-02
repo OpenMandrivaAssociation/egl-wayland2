@@ -48,7 +48,6 @@ Summary:	%{summary}
 Group:		System/Libraries
 Provides:	%{name} = %{EVRD}
 # Renamed after 6.0 2025/07/24
-%rename %{oldlibname}
 
 %description -n %{libname}
 %{summary}.
