@@ -81,14 +81,16 @@ Wayland EGL External Platform library development package (32-bit).
 
 %files -n %{libname}
 %doc README.md
-
+%{_libdir}/libnvidia-egl-wayland2.so.%{major}*
+%{_datadir}/egl/egl_external_platform.d/09_nvidia_wayland2.json
 
 %files -n %{devname}
-
+%{_libdir}/libnvidia-egl-wayland2.so
 
 %if %{with compat32}
 %files -n %{lib32name}
+%{_prefix}/lib/libnvidia-egl-wayland2.so.%{major}*
 
 %files -n %{dev32name}
-
+%{_prefix}/lib/libnvidia-egl-wayland2.so
 %endif
