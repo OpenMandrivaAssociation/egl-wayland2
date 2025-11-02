@@ -17,7 +17,7 @@ Group:		System/Libraries
 Summary:	Wayland EGL External Platform library for nvidia GPUs
 License:	MIT
 URL:		https://github.com/NVIDIA/egl-wayland2
-Source0:	https://github.com/NVIDIA/egl-wayland2/archive/%{version}/%{name}-%{version}.tar.gz
+Source0:	https://github.com/NVIDIA/egl-wayland2/archive/1.0.0-rc/%{name}-1.0.0-rc.tar.gz
 
 BuildSystem:	meson
 BuildRequires:	pkgconfig(libdrm)
